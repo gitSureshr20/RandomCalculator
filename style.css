@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    
+}
+#selectOp{
+    height: 4rem;
+  width: 10rem;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.selectOp option{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 100%;
+}
+.inputs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input.num1, input.num2{
+    width: 30rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.submitBtn{
+    width:30rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+
+}
+.submitBtn #btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#result{
+    font-size: 3rem; 
+    color:#fff;
+}
